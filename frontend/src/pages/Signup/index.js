@@ -37,7 +37,7 @@ const Copyright = () => {
 			© {new Date().getFullYear()}
 			{" - "}
 			<Link color="inherit" href={system.url || "https://wasap.com.br"}>
-				{system.name || "Press Ticket"}
+				{system.name || "WaSap"}
 			</Link>
 			{"."}
 		</Typography>
