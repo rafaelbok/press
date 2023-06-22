@@ -6,7 +6,7 @@ module.exports = {
       "Users",
       [
         {
-          name: "WaSap",
+          name: "Administrador",
           email: "admin@wasap.com.br",
           passwordHash: "$2a$08$WaEmpmFDD/XkDqorkpQ42eUZozOqRCPkPcTkmHHMyuTGUOkI8dHsq",
           profile: "admin",
