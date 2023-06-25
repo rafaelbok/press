@@ -138,19 +138,13 @@ export const initWbot = async (whatsapp: Whatsapp): Promise<Session> => {
             "--ignore-gpu-blacklist",
             "--ignore-certificate-errors",
             "--ignore-certificate-errors-spki-list",
-            "--disable-gpu",
             "--disable-extensions",
             "--disable-default-apps",
-            "--enable-features=NetworkService",
             "--disable-setuid-sandbox",
             "--no-sandbox",
-            "--disable-webgl",
-            "--disable-threaded-animation",
-            "--disable-threaded-scrolling",
             "--disable-in-process-stack-traces",
             "--disable-histogram-customizer",
             "--disable-gl-extensions",
-            "--disable-composited-antialiasing",
             "--disable-canvas-aa",
             "--disable-3d-apis",
             "--disable-accelerated-2d-canvas",
@@ -162,6 +156,7 @@ export const initWbot = async (whatsapp: Whatsapp): Promise<Session> => {
           executablePath: process.env.CHROME_BIN || undefined
         }
       });
+
 
       wbot.initialize();
 

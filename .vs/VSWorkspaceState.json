@@ -8,8 +8,7 @@
     "\\backend\\src\\services",
     "\\backend\\src\\utils",
     "\\frontend",
-    "\\frontend\\src",
-    "\\frontend\\src\\translate\\languages"
+    "\\frontend\\src"
   ],
   "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
