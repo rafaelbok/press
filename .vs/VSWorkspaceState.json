@@ -1,15 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend",
-    "\\backend\\src",
-    "\\backend\\src\\database",
-    "\\backend\\src\\database\\seeds",
-    "\\backend\\src\\services",
-    "\\backend\\src\\utils",
     "\\frontend",
-    "\\frontend\\src"
+    "\\frontend\\src",
+    "\\frontend\\src\\pages",
+    "\\frontend\\src\\pages\\Settings"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\frontend\\src\\pages\\Settings\\index.js",
   "PreviewInSolutionExplorer": false
 }
